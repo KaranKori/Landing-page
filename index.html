@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#"><img src="img/logo.png" alt="logo" /></a>
+        </div>
+        <div class="nav-menu">
+          <li class="nav-items">
+            <a href="#" class="nav-link">New & Feature</a>
+          </li>
+          <li class="nav-items"><a href="#" class="nav-link">Men</a></li>
+          <li class="nav-items"><a href="#" class="nav-link">Women</a></li>
+          <li class="nav-items"><a href="#" class="nav-link">Kids</a></li>
+          <li class="nav-items"><a href="#" class="nav-link">Sale</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- content -->
+    <div class="content">
+      <div class="content-container">
+        <div class="text-container">
+          <h1 class="title">Nike Air Max SYSTM</h1>
+          <div class="color-container">
+            <div class="black" onclick="changeShoesColor('black'); changeContentColor('#383739')"></div>
+            <div class="white" onclick="changeShoesColor('white'); changeContentColor('#cac7bb')"></div>
+            <div class="pink" onclick="changeShoesColor('pink'); changeContentColor('#d2b6aa')"></div>
+            <div class="orange" onclick="changeShoesColor('orange'); changeContentColor('#ed8c62')"></div>
+            <div class="blue" onclick="changeShoesColor('blue'); changeContentColor('#8ca2b5')"></div>
+            <div class="green" onclick="changeShoesColor('green'); changeContentColor('#c7f600')"></div>
+          </div> 
+          <p class="desc">Looks Max. Feels Max. The Air Max SYSTM brings back everything you love about your favourite '80s vibes (without the parachute trousers). Tried-and-tested visible Nike Air cushioning is paired with a sleek, sport-inspired upper. It's Air Max delivering again.</p>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="img-container">
+            <img src="img/shoes-black.png" alt="" class="shoes-img">
+        </div>
+      </div>
+    </div>
+    <div class="circle"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
